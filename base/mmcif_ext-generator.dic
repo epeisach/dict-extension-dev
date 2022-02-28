@@ -1,4 +1,4 @@
-data_combine.dic
+data_mmcif_pdbx.dic
 
 loop_
 _pdbx_include_dictionary.dictionary_id
