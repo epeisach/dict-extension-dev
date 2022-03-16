@@ -8,4 +8,5 @@ _pdbx_include_dictionary.dictionary_namespace_prefix
 _pdbx_include_dictionary.dictionary_namespace_prefix_replace
 mmcif_pdbx_v50.dic          https://raw.githubusercontent.com/wwpdb-dictionaries/mmcif_pdbx/master/dist/mmcif_pdbx_v50.dic   extend . .
 mmcif_pdbx_investigation.dic          ../extensions/investigation.dic      extend . .
+mmcif_pdbx_license.dic                ../extensions/license.dic      extend . .
 
