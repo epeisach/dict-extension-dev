@@ -46,9 +46,9 @@ save_pdbx_data_usage
        _pdbx_data_usage.type              
        _pdbx_data_usage.details
        1 license "Data in this file are subject to CC0 creative commons license"
-       2 rights
+       2 disclaimer
        ; You have the right to use this file provided that the license 
-       remains intect
+       remains intact
        ;
 ;
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -78,7 +78,7 @@ save__pdbx_data_usage.type
     loop_
       _item_enumeration.value
       _item_enumeration.detail    'license'        .
-                                  'rights'         .    
+                                  'disclaimer'     .    
      save_
 
 save__pdbx_data_usage.details
