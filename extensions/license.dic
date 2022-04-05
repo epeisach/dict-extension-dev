@@ -45,11 +45,15 @@ save_pdbx_data_usage
        _pdbx_data_usage.id                
        _pdbx_data_usage.type              
        _pdbx_data_usage.details
+       _pdbx_data_usage.url
+       _pdbx_data_usage.name
        1 license "Data in this file are subject to CC0 creative commons license"
+       https://creativecommons.org/share-your-work/public-domain/cc0 CC0
        2 disclaimer
        ; You have the right to use this file provided that the license 
        remains intact
        ;
+       ? ?
 ;
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
      save_
@@ -91,3 +95,24 @@ save__pdbx_data_usage.details
     _item_type.code               text
     save_
 
+save__pdbx_data_usage.url
+    _item_description.description
+;             Provides the an optional url for more details of the
+              particular type.
+;
+    _item.name                  '_pdbx_data_usage.url'
+    _item.category_id             pdbx_data_usage
+    _item.mandatory_code          no
+    _item_type.code               code
+    save_
+
+
+save__pdbx_data_usage.name
+    _item_description.description
+;             An optional well known name for the _pdbx_usage_data.
+;
+    _item.name                  '_pdbx_data_usage.name'
+    _item.category_id             pdbx_data_usage
+    _item.mandatory_code          no
+    _item_type.code               line
+    save_
